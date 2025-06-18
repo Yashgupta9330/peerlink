@@ -188,24 +188,6 @@ classDiagram
    - Invite codes (port numbers) are generated for sharing
    - Direct peer-to-peer file transfer using WebSocket connections
 
-## Security Considerations
-
-- This is a demo application and does not include encryption or authentication
-- For production use, consider adding:
-  - File encryption
-  - User authentication
-  - HTTPS support
-  - Port validation and security
-
-## Deployment
-
-For detailed deployment instructions, see [DEPLOYMENT.md](DEPLOYMENT.md).
-
-Options include:
-- Local network deployment
-- Docker deployment (using provided Dockerfile.backend, Dockerfile.frontend, and docker-compose.yml)
-- Cloud deployment (Heroku, Railway, Vercel, Netlify)
-- VPS deployment
 
 ## License
 
